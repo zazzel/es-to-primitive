@@ -5,6 +5,9 @@ cache:
     - "$(nvm cache dir)"
 os:
  - linux
+arch:
+ - amd64
+ - ppc64le
 import:
  - ljharb/travis-ci:node/all.yml
  - ljharb/travis-ci:node/pretest.yml
